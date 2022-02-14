@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, purple, #16C79A);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 100px 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    color: black;
+    text-align: center;
+}
+
+p,
+label,
+input {
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 50px 400px;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #773A87;
+    border-radius: 10px;
+    border: 0;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    gap: 25px;
+}
+
+footer {
+    margin-top: 10px;
+}
